@@ -255,3 +255,11 @@ nav{
     padding: 15px 0 0 10px ;
     margin-left: 15px;
 }
+
+.ytVedioSteps {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}

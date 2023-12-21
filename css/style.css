@@ -311,7 +311,7 @@ nav{
 
 .cue{
     padding-top: 40px;
-    width: 100%;
+    max-width: 1200px;
     height: 400px;
     display: flex;
     position: relative;
@@ -332,17 +332,19 @@ nav{
     overflow: auto;
 }
 
-.box:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 10px 4px #2c3d30
-}
-
 .box{
     height: 230px;
     min-width: 200px;
     margin: 20px;
-    border:#3d5e45 0.5px groove;
+    border: 5px solid white;
+    border-radius: 25px;
     overflow: hidden;
+    transition: all 0.25s ease-in-out;
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 5px #607364
 }
 
 .box a:visited{
@@ -383,7 +385,6 @@ nav{
 
 .contact .message{
     padding: 5px 80px 100px 5px;
-    /* display: ; */
     flex-wrap: nowrap;
 }
 
